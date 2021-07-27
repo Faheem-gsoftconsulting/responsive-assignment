@@ -9,16 +9,22 @@
     font-size: 18px;
     color: rgb(0, 128, 100);
 }
-@media (max-width: 359.98px) {
+/* @media (max-width: 359.98px) {
     .button-search{
         float: left;
-        margin-left: -1rem;
-
     }
+} */
+.phone-icon{
+    transform: rotate(45deg);
+    font-size: 30px;
 }
 .button-search{
 background-color: rgb(0, 128, 100);
 border:rgb(0, 128, 100) ;
+width: 50px;
+height: 50px;
+border-radius: 50%;
+float:left;
 }
 .nav-link:hover{
     text-decoration: underline;
@@ -27,9 +33,17 @@ border:rgb(0, 128, 100) ;
 .image-grid{
 --bs-gutter-x: 1rem;
 }
+.card-category{
+width: 18rem;
+}
+@media (min-width:1400px){
+    .card-category{ width: 31rem;
+    height: 202px;
+    }
+}
 @media (max-width: 919.98px) {
     .card-category{
-        margin-left: 20%;
+        margin-left: 10%;
     }
 }
 @media (max-width: 767.98px) {
@@ -47,20 +61,36 @@ border:rgb(0, 128, 100) ;
     }
 }
 .image-category{
-    height: 300px;
+  height: 300px;
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
 .image-category{
-    height: 110%;
-    margin-bottom: 10%;
+    height: 181px;
   }
 }
+@media(min-width:992px){
+    .image-category{
+        height: 287px;
+    }
+}
+@media (min-width: 1200px) {
+    .image-category{
+        height: 347px;
+      } 
+}
+@media (min-width: 1400px) {
+    .image-category{
+        height: 400px;
+      } 
+}
 .images-row{
+    background-image:url(../Archia/images/danielle-macinnes-IuLgi9PWETU-unsplash.jpg);
     height: 300px;
     background-size: cover;
     background-repeat: no-repeat;
 }
 .images-row2{
+    background-image:url(../Archia/images/nastuh-abootalebi-rSpMla5RItA-unsplash.jpg);
     height: 400px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -76,6 +106,8 @@ border:rgb(0, 128, 100) ;
     border-radius: 1.2rem
 }
 .image-bg-page4{
+    background-image: url('../Archia/images/danielle-macinnes-IuLgi9PWETU-unsplash.jpg');
+    position: relative;
     min-height:111vh;
     min-width: 80vw;
     background-size: cover;
@@ -116,6 +148,8 @@ border:rgb(0, 128, 100) ;
 }
 
 .card-planning{
+    position: absolute;
+    border-radius:20px;
     width:500px;
     min-height:500px;
     margin-top: 100px;
@@ -131,7 +165,7 @@ border:rgb(0, 128, 100) ;
 @media (max-width: 767.98px){
 .card-planning {
     width: 284px;
-    height: 570px;
+    height: 590px;
     font-size: unset;
     justify-content: center;
   }
@@ -148,6 +182,10 @@ border:rgb(0, 128, 100) ;
     height: 450px;
 } */
 .card-img-top-page4{
+    background-image: url('../Archia/images/christina-wocintechchat-com-x29idTmYGXg-unsplash.jpg');
+    width:50%;
+    height:100%;
+    background-size: cover;
     min-width: 100%;
     min-height: 150px;
     background-size: cover;
